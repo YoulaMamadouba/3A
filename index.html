@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Animes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylessuite.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+          <img src="images/logoforsure-removebg-preview.png" height="50">
+         
+          <ul class="nav-links">
+            <li><a href="#">Navigate <i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Streaming <i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="gallery.html">Gallery <i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="#">chat</a></li>
+            <li class="nav-icon"><a href="#"><i class="fas fa-search"></i><span class="tooltip">Search what you want</span></a></li>
+            <li class="nav-icon"><a href="#"><i class="fas fa-user-plus"></i><span class="tooltip">Create your account</span></a></li>
+            <!-- <li class="menus-button" onclick="showSidebar()">
+                <a href="#">
+                  <i class="fas fa-bars" style="font-size: 26px; color: white;"></i>
+                </a>
+            </li> -->
+            
+          </ul>
+        </div>
+        
+    </nav>
+
+     <nav class="navbar-responsive">
+       <img src="images/logoforsure-removebg-preview.png" height="50">
+       <ul>
+        <li><a href="#">chat</a></li>
+        <li class="nav-icon"><a href="#"><i class="fas fa-search"></i><span class="tooltip">Search what you want</span></a></li>
+        <li class="nav-icon"><a href="#"><i class="fas fa-user-plus"></i><span class="tooltip">Create your account</span></a></li>
+        <li class="menus-button" onclick="showSidebar()">
+            <a href="#">
+              <i class="fas fa-bars" style="font-size: 26px; color: white;"></i>
+            </a>
+        </li>
+       </ul> 
+       <ul class="sidebar">
+        <li onclick="hideSidebar()">
+            <a href="#">
+              <i class="fas fa-times" style="font-size: 26px; color: white;"></i>
+            </a>
+        </li>
+        <li><a href="gallery.html">Gallery <i class="fas fa-chevron-down"></i><span class="tooltip">Navigate through site</span></a></li>
+        <li><a href="#">Streaming <i class="fas fa-chevron-down"></i><span class="tooltip">Stream your anime</span></a></li>
+        <li><a href="#">Navigate<i class="fas fa-chevron-down"></i><span class="tooltip">Explore anime gallery</span></a></li>
+        <li><a href="#">News<span class="tooltip">Latest anime news</span></a></li>
+      </ul>
+
+    </nav> 
+      <!--  hero section  -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 >All About Animes .</h1>
+                <p>Discover the captivating world of anime with us.</p> 
+                <div class="hero-buttons">
+                    <button class="btn">Explore Now</button>
+                    <button class="btn">Learn More</button>
+                </div>
+                    
+                
+            </div>
+        </div>   
+    </section>
+    <!-- section for some animes categories -->
+    <section class="featured-categories">
+        <h2>Featured in Some Categories of Animes</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/shonen manga.jpeg" alt="Shonen">
+                <div class="card-content">
+                    <h3>Shonen</h3>
+                    <p>Shonen anime is known for its action-packed scenes and strong male protagonists. It's popular among young male audiences and often features themes of friendship and perseverance.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/seinenBeelzebub.jpeg" alt="Seinen">
+                <div class="card-content">
+                    <h3>Seinen</h3>
+                    <p>Seinen anime caters to adult men, often featuring more complex themes and mature storytelling compared to Shonen.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Isekai Cheat Magician.jpeg" alt="Isekai">
+                <div class="card-content">
+                    <h3>Isekai</h3>
+                    <p>Isekai anime involves characters being transported to another world, often leading to adventures and battles in a fantasy setting.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/romanceanime.jpeg" alt="romance">
+                <div class="card-content">
+                    <h3>Romance</h3>
+                    <p>romance anime involves characters being transported to another world, often leading to adventures and battles in a fantasy setting.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="btn-more">More</button>
+    </section>
+    <!-- mangas and webtoons  -->
+    <section class="featured-categories">
+        <h2>manga & webtoons</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/mangascan.jpeg" alt="Shonen">
+                <div class="card-content">
+                    <h3>scans</h3>
+                    <p>Shonen anime is known for its action-packed scenes and strong male protagonists. It's popular among young male audiences and often features themes of friendship and perseverance.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/myheroacademyscan.jpeg" alt="Seinen">
+                <div class="card-content">
+                    <h3>my hero</h3>
+                    <p>Seinen anime caters to adult men, often featuring more complex themes and mature storytelling compared to Shonen.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/The Boy of Death.jpeg" alt="Isekai">
+                <div class="card-content">
+                    <h3>webtoon</h3>
+                    <p>Isekai anime involves characters being transported to another world, often leading to adventures and battles in a fantasy setting.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Killing My Love.jpeg" alt="Isekai">
+                <div class="card-content">
+                    <h3>webtoon</h3>
+                    <p>Isekai anime involves characters being transported to another world, often leading to adventures and battles in a fantasy setting.</p>
+                    <a href="#" class="btn-go-in">
+                        <i class="fas fa-arrow-right"></i> Go In
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="btn-more">More</button>
+    </section>
+    <!-- for quick watch  -->
+    <section class="manga-section">
+        <h2 class="section-title">Quick Watch</h2>
+        <hr class="section-divider">
+        <div class="carousel">
+            <input type="radio" name="carousel" id="slide1" checked>
+            <input type="radio" name="carousel" id="slide2">
+            <input type="radio" name="carousel" id="slide3">
+            <input type="radio" name="carousel" id="slide4">
+            <input type="radio" name="carousel" id="slide5">
+            <input type="radio" name="carousel" id="slide6">
+    
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">Am I the Strongest?</h2>
+                            <p class="manga-details">1. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Après son décès, Haruto se réincarne en bébé, qui plus est, un prince ! Malheureusement, il est abandonné dans une forêt le jour de sa naissance à cause de son faible niveau de magie... Quel sera le destin de Haruto...</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/Am I Actually the Strongest_.jpg" alt="Manga Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">No longer in another world</h2>
+                            <p class="manga-details">2. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Osamu, auteur du 20ᵉ siècle, veut une fin paisible mais va vivre des moments héroïques et de nouvelles aventures dans un autre monde..</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/no longer in another world.jpeg" alt="Another Manga Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">One piece</h2>
+                            <p class="manga-details">3. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Luffy et son équipage naviguent sur les mers à la recherche du légendaire trésor appelé « One Piece » et doivent faire face à de nombreuses aventures. Celui qui s’en emparera deviendra le roi des pirates, rêve</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/onepieceall.jpeg" alt="Yet Another Manga Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">Another world</h2>
+                            <p class="manga-details">4. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Réincarné avec des capacités puissantes, Takumi va élever des jumeaux dans un monde dangereux tout en partant à l'aventure ensemble..</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/anotherworld.jpeg" alt="Fourth Manga Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">Spy x family  </h2>
+                            <p class="manga-details">5. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Spy x Family est une histoire captivante d'action d'espionnage et de drame familial centrée sur la mission herculéenne de Twilight au milieu d'une guerre politique..</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/spy x family.jpeg" alt="Fifth Manga Image">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="manga-content">
+                        <div class="manga-description">
+                            <h2 class="manga-title">Dragon ball Z Super </h2>
+                            <p class="manga-details">1. Sous titrage - Doublage</p>
+                            <p class="manga-summary">Une fois passée la menace de Majin Boo, Son Goku et ses amis vivent enfin en paix. Les années se sont écoulées et tandis que tout le monde se retrouve pour fêter l’anniversaire de Bulma, apparaît alors Beerus, le...</p>
+                            <div class="manga-buttons">
+                                <button class="btn2 watch-btn">
+                                    <span class="icon">▶️</span> Watch
+                                </button>
+                                <button class="btn2 watchlist-btn">
+                                    <span class="icon">➕</span>
+                                    <span class="hover-text">Add to Watchlist</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="manga-image">
+                            <img src="images/dragon ball super goku fanart.jpeg" alt="Sixth Manga Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="carousel-controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+            </div>
+        </div>
+    </section>
+    <!-- little section -->
+    <section class="message-section">
+        <div class="centered-container">
+            <div class="content-wrapper">
+                <div class="promo-content">
+                    <h1>To be continued...</h1>
+                </div>
+
+                <img src="images/onepiece1-removebg-preview.png" alt="Image 1" class="continue-image">
+                
+            </div>
+        </div>
+    </section>
+    <!--  manga main -->
+    <section class="manga-main-description">
+        
+        <div class="manga-items">
+            <div class="manga-item">
+                <img src="images/myh.jpeg" alt="Manga Image 1" class="manga-img">
+                <div class="manga-text-block">
+                    <h3 class="manga-title">Manga Title 1</h3>
+                    <small class="manga-info">Series - Subtitled - Dubbed</small>
+                    <p class="manga-description">Description of the manga 1. It provides details about the story, characters, and other important information.</p>
+                    <div class="manga-buttons">
+                        <button class="btn-filled">Watch EP1</button>
+                        <button class="btn-bordered">Add to Your Watchlist</button>
+                    </div>
+                </div>
+            </div>
+    
+            
+            <div class="manga-item">
+                <img src="images/Tower Of God.jpeg" alt="Manga Image 2" class="manga-img">
+                <div class="manga-text-block">
+                    <h3 class="manga-title">Manga Title 2</h3>
+                    <small class="manga-info">Series - Subtitled - Dubbed</small>
+                    <p class="manga-description">Description of the manga 2. It provides details about the story, characters, and other important information.</p>
+                    <div class="manga-buttons">
+                        <button class="btn-filled">Watch EP1</button>
+                        <button class="btn-bordered">Add to Your Watchlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="manga-item">
+                <img src="images/toniwaka.jpeg" alt="Manga Image 3" class="manga-img">
+                <div class="manga-text-block">
+                    <h3 class="manga-title">Manga Title 3</h3>
+                    <small class="manga-info">Series - Subtitled - Dubbed</small>
+                    <p class="manga-description">Description of the manga 3. It provides details about the story, characters, and other important information.</p>
+                    <div class="manga-buttons">
+                        <button class="btn-filled">Watch EP1</button>
+                        <button class="btn-bordered">Add to Your Watchlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="manga-item">
+                <img src="images/terrasse.jpg" alt="Manga Image 4" class="manga-img">
+                <div class="manga-text-block">
+                    <h3 class="manga-title">Manga Title 4</h3>
+                    <small class="manga-info">Series - Subtitled - Dubbed</small>
+                    <p class="manga-description">Description of the manga 4. It provides details about the story, characters, and other important information.</p>
+                    <div class="manga-buttons">
+                        <button class="btn-filled">Watch EP1</button>
+                        <button class="btn-bordered">Add to Your Watchlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="manga-item">
+                <img src="images/Naofumi and Raphtalia.jpeg" alt="Manga Image 5" class="manga-img">
+                <div class="manga-text-block">
+                    <h3 class="manga-title">Manga Title 5</h3>
+                    <small class="manga-info">Series - Subtitled - Dubbed</small>
+                    <p class="manga-description">Description of the manga 5. It provides details about the story, characters, and other important information.</p>
+                    <div class="manga-buttons">
+                        <button class="btn-filled">Watch EP1</button>
+                        <button class="btn-bordered">Add to Your Watchlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ep section  -->
+    <section class="new-episodes-grid">
+        <div class="news-ep-header">
+            <h2><i class="fas fa-bullhorn"></i>  News episode</h2>
+            <a href="#" class="view-all">TOUT VOIR <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <h3>Aujourd'hui</h3>
+        <div class="episodes-day">
+            
+            <div class="episode-item">
+                <img src="images/—𝐊𝐘𝐎𝐉𝐔𝐑𝐎 𝐑𝐄𝐍𝐆𝐎𝐊𝐔 [𝑾𝒂𝒍𝒍𝒑𝒂𝒑𝒆𝒓].jpg" alt="Episode 1" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">My Deer Friend Nokotan</h4>
+                    <p>Épisode 3</p>
+                    <small>Sous-titrage</small>
+                    <time>17:00</time>
+                </div>
+            </div>
+            <div class="episode-item">
+                <img src="images/25_ januar 2018.jpg" alt="Episode 2" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">Tower of God (Saison 2)</h4>
+                    <p>Épisode 3</p>
+                    <small>Sous-titrage</small>
+                    <time>16:00</time>
+                </div>
+            </div>
+            <div class="episode-item">
+                <img src="images/all.jpg" alt="Episode 3" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">My Hero Academia</h4>
+                    <p>Épisode 5</p>
+                    <small>Sous-titrage</small>
+                    <time>11:30</time>
+                </div>
+            </div>
+            <!-- Add more episodes as needed -->
+        </div>
+        <h3>Hier</h3>
+        <div class="episodes-day">
+            
+            <div class="episode-item">
+                <img src="images/bganimes.jpg" alt="Episode 4" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">YATAGARASU: The Raven  </h4>
+                    <p>Épisode 14</p>
+                    <small>Sous-titrage</small>
+                    <time>11:00</time>
+                </div>
+            </div>
+            <div class="episode-item">
+                <img src="images/Am I Actually the Strongest_.jpg" alt="Episode 5" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">yeah Another Anime</h4>
+                    <p>Épisode 1</p>
+                    <small>Sous-titrage</small>
+                    <time>10:00</time>
+                </div>
+            </div>
+            <div class="episode-item">
+                <img src="images/deku.jpg" alt="Episode 6" class="episode-image">
+                <div class="episode-info">
+                    <h4 class="episode-title">Yet Another Anime</h4>
+                    <p>Épisode 7</p>
+                    <small>Sous-titrage</small>
+                    <time>09:00</time>
+                </div>
+            </div>
+            <!-- Add more episodes as needed -->
+        </div>
+        <button class="second-more-button">  more </button>
+    </section>
+    <!-- news section  -->
+    <section class="news-section">
+        <div class="news-header">
+            <h2><i class="fas fa-bullhorn"></i>  News</h2>
+            <a href="#" class="view-all">TOUT VOIR <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="news-content">
+            <div class="news">
+                <h3>Top News</h3>
+                <div class="news-item">
+                    <img src="images/theri.jpg" alt="Top News Image">
+                    <div class="news-details">
+                        <h4>The rising of the shield hero S4: le thriller enfin sorti</h4>
+                        <p><time datetime="2024-07-19T14:00:00+02:00">Jul 19, 2024 2:00pm UTC+2</time></p>
+                        <p>par Mohamed Mir</p>
+                    </div>
+                    
+                </div>
+                <div class="news-item">
+                    <img src="images/Kono Kaisha ni Suki na Hito ga Imasu.jpeg" alt="Top News Image">
+                    <div class="news-details">
+                        <h4>I have a crush at work : l'anime a enfin été annoncé</h4>
+                        <p><time datetime="2024-07-19T14:00:00+02:00">Jul 19, 2024 2:00pm UTC+2</time></p>
+                        <p>par Mohamed Mir</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <h3>Les dernières news</h3>
+                <div class="news-item">
+                    <img src="images/gokuultra.jpg" alt="News Image">
+                    <div class="news-details">
+                        <h4>Dragon Ball Daima: Nouveau Trailer, nouveau visuel et nouveaux personnages</h4>
+                        <p><time datetime="2024-07-19T19:20:00+02:00">Jul 19, 2024 7:20pm UTC+2</time></p>
+                        <p>par Mohamed Mir</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <img src="images/rent.jpeg" alt="News Image">
+                    <div class="news-details">
+                        <h4>une saison 4 pour l'anime rent a girlfriend..</h4>
+                        <p><time datetime="2024-07-19T19:20:00+02:00">Jul 19, 2024 7:20pm UTC+2</time></p>
+                        <p>par Mohamed Mir</p>
+                    </div>
+                </div>
+
+                <!-- Ajoutez plus d'articles de news ici -->
+            </div>
+        </div>
+    </section>
+   <!--  section for  le pop  -->
+
+    <section class="popular-section">
+        <div class="popular-header">
+            <h2>Les plus populaires</h2>
+            <a href="#" class="view-all">TOUT VOIR <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="popular-content">
+            <div class="popular-items">
+                <div class="popular-item">
+                    <div class="img-wrapper">
+                        <img src="images/kaijou .jpeg" alt="Anime 1">
+                        <div class="hover-overlay">
+                            <div class="hover-content">
+                                <h4>Kaiju n 8</h4>
+                                <p>1000 likes | 1 Saison | 12 Episodes</p>
+                                <p>Kaiju No. 8 est un manga japonais de science-fiction et d'action écrit et dessiné par Naoya Matsumoto.</p>
+                                <div class="buttons">
+                                    <button class="watch"><i class="fas fa-play"></i> Watch</button>
+                                    <button class="add"><i class="fas fa-plus"></i> Add to your...</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Kaiju n 8</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/slime.jpeg" alt="Anime 2">
+                    <h4>slime</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/myh.jpeg" alt="Anime 3">
+                    <h4>My Hero Academia</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/Tsukimichi Moonlit Fantasy Season 2 Subbed Videos are Added.jpeg" alt="Anime 1">
+                    <h4>Tsukimichi</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/mushoku.jpeg" alt="Anime 2">
+                    <h4>Mushoku tensei</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/Windbreaker (Anime).jpeg" alt="Anime 3">
+                    <h4>wind breaker </h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/rezero.jpeg" alt="Anime 3">
+                    <h4>Re-Zero </h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/remonster.jpeg" alt="Anime 3">
+                    <h4>Re:monster </h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/The New Gate Volume 1 (Paperback).jpeg" alt="Anime 3">
+                    <h4>THe new gate</h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                <div class="popular-item">
+                    <img src="images/towerofgod.jpeg" alt="Anime 3">
+                    <h4>Tower of God </h4>
+                    <p>Sous-titrage | Doublage</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    
+    <!-- for le footer  -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Populaire</a></li>
+                <li><a href="#">Simulcast</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Jeux</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Suivez-nous</h3>
+            <ul>
+                <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>3A</h3>
+            <ul>
+                <li><a href="#"><span class="crown-icon">👑</span> Commencer l'essai gratuit</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Aide FAQ</a></li>
+                <li><a href="#">Conditions d'utilisation</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Gestion des cookies</a></li>
+                <li><a href="#">Relations presse</a></li>
+                <li><a href="#">Télécharger les Apps</a></li>
+                <li><a href="#">Utiliser une carte cadeau</a></li>
+                <li><a href="#">Offres d'emploi</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Compte</h3>
+            <ul>
+                <li><a href="#">Créer un compte</a></li>
+                <li><a href="#">Se connecter</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>© 2024 3A, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function showSidebar() {
+            document.querySelector('.sidebar').style.display = 'flex';
+        }
+
+        function hideSidebar() {
+            document.querySelector('.sidebar').style.display ='none';
+        }
+    </script> 
+</body>
+</html>

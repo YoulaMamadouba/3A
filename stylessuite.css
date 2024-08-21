@@ -1,0 +1,176 @@
+.img-wrapper {
+    position: relative;
+    overflow: hidden; /* Empêche les images de dépasser leur taille */
+    
+  }
+  
+  .popular-item img {
+    width: 180px; /* Largeur de l'image ajustée */
+    height: 300px; /* Hauteur fixe */
+    border-radius: 5px;
+  }
+  
+  .popular-item h4 {
+    font-size: 1rem;
+    margin: 10px 0 5px;
+  }
+  
+  .popular-item p {
+    color: #999;
+  }
+  
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9); /* Fond noir transparent */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  
+  }
+  
+  .img-wrapper:hover .hover-overlay {
+    opacity: 1;
+  }
+  
+  .hover-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .hover-content h4 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .hover-content p {
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  button.watch:hover {
+    background: #f47521;
+    color: #fff;
+  }
+  
+  button.add:hover {
+    background: #f47521;
+    color: #fff;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+
+/* Manga Card */
+
+/* Manga Main Description Section */
+.manga-main-description {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+  
+.manga-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+  
+  
+/* Manga Item */
+.manga-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Manga Image */
+  .manga-img {
+    width: 600px; /* Ajustez cette valeur selon vos besoins */
+    height: 350px; /* Ajustez cette valeur pour conserver les proportions */
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Manga Text Block */
+  .manga-text-block {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px; /* Space between text elements */
+    width: 50ch;
+    margin-left: 20px;
+
+  }
+  
+  /* Manga Title */
+  .manga-title {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Manga Info */
+  .manga-info {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Manga Description */
+  .manga-description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Manga Buttons */
+  .manga-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-filled, .btn-bordered {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.btn-filled {
+    background-color: #f47521;
+    color: #fff;
+    border: none;
+}
+  
+.btn-bordered {
+    background-color: transparent;
+    color: #f47521;
+    border: 1px solid #f47521;
+}
+   
